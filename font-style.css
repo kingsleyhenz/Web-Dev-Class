@@ -1,0 +1,46 @@
+h1{
+    /* changing the text color  */
+    color: royalblue;
+
+    /* changing the text size  */
+    font-size: 50px;
+
+    /* changing the text style  */
+    font-style: italic;
+
+    /* changing the position of the text  */
+    text-align: center;
+
+    /* adding a decoration to the text  */
+    text-decoration:underline;
+
+    /* changing the font family  */
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    text-transform: capitalize;
+
+    /* adding space to our text  */
+    letter-spacing: 20px;
+}
+
+.p-1{
+    font-size: 32px;
+    color: brown;
+
+     /* adding space between each text  */
+    word-spacing: 40px;
+
+    /* increase the boldness of our text */
+    font-weight: 900;
+
+    
+}
+
+.p-2{
+    color: crimson;
+    font-size: 20px;
+
+    /* adding space between each line  */
+    line-height: 1.8;
+}
