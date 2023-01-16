@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: rgb(2, 2, 121);
+    width: 100%;
+    height: 70px;
+    padding: 0px 35px;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 200px;
+}
+.nav-head{
+    /* background-color: aqua; */
+    width: 20%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.nav-links{
+    /* background-color: aqua; */
+    width: 40%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}
+.nav-links a:hover{
+    color: rgb(173, 173, 173);
+    transition: 0.8s;
+}
+.hero-section{
+    height: 600px;
+    color: white;
+    width: 100%;
+    background-color: rgba(29, 28, 28, 0.534);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background-image: url(laws_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.intro{
+    /* background-color: orange; */
+    width: 100%;
+    height: 300px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.waw{
+    height: 15%;
+    width: 40%;
+    /* background-color: aqua; */
+    text-align: center;
+    font-size: 30px;
+}
+.intro-sub{
+    /* background-color: aqua; */
+    width: 75%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+.intro-sub p{
+    font-size: 15px;
+}
+.intro-sub a{
+    padding: 7px 30px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(0, 0, 245);
+    color: whitesmoke;
+    border-radius: 2px;
+    font-size: 13px;
+    text-decoration: none;
+}
+.intro-sub button:hover{
+    background-color: rgb(0, 0, 156);
+    transition: 0.6s ease-in;
+}
+.cards-holder{
+    width: 100%;
+    height: 400px;
+    /* background-color: yellowgreen; */
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+.srvchd{
+    font-size: 25px;
+}
+.cardmain{
+    width: 100%;
+    height: 85%;
+    /* background-color: tomato; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    background-color: rgba(0, 0, 0, 0.459);
+    width: 30%;
+    height: 100%;
+    border-radius: 1px;
+    box-shadow: 2px 2px 10px rgb(221, 221, 221);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 20px 20px;
+    background-image: url(https://jamesnoblelaw.com.au/wp-content/uploads/2022/06/law-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    font-size: 1px;
+    transition: 150ms;
+    transform: translateY(100px);
+}
+.card.show{
+    transform: translateY(0);
+}
+.card a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 3px 7px;
+    border-radius: 10px;
+}
+#card2{
+    background-image: url(https://media.istockphoto.com/id/1277950504/photo/lawyer-is-explaining-about-the-wrongdoing-laws-regarding-fraud-to-the-client-at-the-office.jpg?s=612x612&w=0&k=20&c=0FIsi9Q1umQdGfg8lV7ZaXMWU3VR3IPIdL38d4K7lPs=);
+}
+#card3{
+    background-image: url(https://images.unsplash.com/photo-1575282343536-469af953c6e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGF3JTIwbGlicmFyeXxlbnwwfHwwfHw%3D&w=1000&q=80);
+}
+.card:hover{
+    background-blend-mode: darken;
+    font-size: 13px;
+    transition: 5s ease-in;
+    box-shadow: 5px 5px 10px rgb(168, 168, 168);
+}
+.mantrawrp{
+    /* background-color: yellowgreen; */
+    width: 100%;
+    height: 700px;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.mantrawrp p{
+    font-size: 25px;
+}
+.mntracrd{
+    width: 100%;
+    height: 30%;
+    background-color: rgba(8, 8, 8, 0.747);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://www-walsallcollege-ac-uk.exactdn.com/wp-content/uploads/2021/04/impact-tech-law-industry-web-1.jpg?strip=all&lossy=1&ssl=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.mntracrd p{
+    font-size: 20px;
+    color: white;
+}
+#mntcd2{
+    background-image: url(https://www.wsba.org/images/default-source/heros/fingers1349.jpg?sfvrsn=6f763cf1_4);
+}
+#mntcd3{
+    background-image: url(https://bimsmithstorage.blob.core.windows.net/news-content/2018612_architecture-lawyer-bimsmith-blog-790x465.png);
+}
+.newsbx{
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: rgb(230, 230, 230); */
+}
+.newstxt{
+    /* background-color: aqua; */
+    width: 50%;
+    height: 40%;
+    text-align: center;
+}
+.news-sub{
+    /* background-color: blue; */
+    width: 50%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.news-sub p{
+    text-align: center;
+    font-size: 25px;
+}
+.emailbox{
+    width: 95%;
+    height: 60%;
+    /* border: 1px solid blue; */
+    padding: 5px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.emailbox input{
+    width: 75%;
+    height: 70%;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.emailbox button{
+    border: none;
+    width: 20%;
+    height: 40%;
+    background-color: rgb(18, 18, 252);
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+footer{
+    background-color: rgb(18, 18, 252);
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 5px;
+}
+.tagsbox{
+    /* background-color: yellowgreen; */
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.tagwrp{
+    /* background-color: white; */
+    width: 15%;
+    height: 100%;
+    font-size: 15px;
+}
+.logo{
+    /* background-color: antiquewhite; */
+    width: 40%;
+    height: 15%;
+    text-align: center;
+    font-size: 17px;
+}
